@@ -1,11 +1,15 @@
 import random
 
-first = ["пиздо", "хуе", "ахуе", "ебнуто", "доху", "пере", "срако", "жопо", "ебле", "бляди", "изъ"] #приставка
-second = ["ёби", "пиздо", "хуе", "чмоне", ] #основная часть слова
-third = ["блядский", "хуев", "стый", "глист", "головый"] #окончание
-print(random.choice(first), random.choice(second), random.choice(third), sep='')
-print(random.choice(first), random.choice(second), random.choice(third), sep='')
-print(random.choice(first), random.choice(second), random.choice(third), sep='')
-print(random.choice(first), random.choice(second), random.choice(third), sep='')
-print(random.choice(first), random.choice(second), random.choice(third), sep='')
-print(random.choice(first), random.choice(second), random.choice(third), sep='')
+first = ["пиздо", "хуе", "ахуе", "ебнуто", "дохуя", "пере", "срако", "жопо", "ебле", "бляди", "изъАААААААААААААА"] #приставка
+second = ["ёбо", "пиздо", "хуе", "чмоне","блудо", "вагино", "гомо", "пердуно", "", "" ] #основная часть слова
+third = ["блядский", "хуев", "стый", "глист", "головый", "дрочила", "вошка"] #окончание
+#сделать вложенные списки, рассортировать по сочитаемости
+#отдельный список для просто слов
+print("Введите количество слов:")
+a = int(input())
+while a > 0:
+    print(random.choice(first), random.choice(second), random.choice(third), sep='')
+    a = a -1;
+#print(random.choice(first), random.choice(second), random.choice(third), sep='')
+
+
