@@ -7,6 +7,7 @@ customtkinter.set_default_color_theme("green")  # Themes: blue (default), dark-b
 
 app = customtkinter.CTk()  
 app.geometry("500x300")
+app.title("swear words generator")
 
 def button_function():
     print(random.choice(first)+random.choice(second)+random.choice(third), sep="")
