@@ -1,0 +1,1 @@
+# swear-word-generator-ru
